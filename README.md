@@ -1,8 +1,7 @@
 # Description
 **Youtube Comment Scraping and Analysis:**  It is a web application made specially for youtube content creators to know their reviews separately as positive and negative comments.
 
-# Working Video
-https://drive.google.com/file/d/1x-bNAR4Snt1Yz-9nurBKiu96nMXcbQZL/view?usp=share_link
+
 
 # What it does
 - Asks for youtube video url and mail id.
@@ -22,15 +21,13 @@ https://drive.google.com/file/d/1x-bNAR4Snt1Yz-9nurBKiu96nMXcbQZL/view?usp=share
 - The bug is due to the built of cloud to produce timeout error after 30 seconds.
 
 # To-Do's
-- NLTK used is Vader lexican module, it can be improved by our own NLTK model in machine learning or Deep Learning (Ex: BERT) but the downside is that, we have to collect labelled data to train the model. So, for now Vader lexican module is used.
-- **BUG FIX:** Make the program to stop the scraping and produce the table with the comments that are scraped so far, for every 20 seconds until the scraping is finished fully. (I am new to cloud, not sure if it will work.)
-- Try youtube API for faster comment scraping.
-- If we cannot able to fix the bug, we can make a normal application to run on the local systems(PC Application).
-
+- NLTK used is Vader lexican module, it can be improved by our own NLTK model in machine learning or Deep Learning (Ex: BERT) but the downside is that, we have to collect labelled data to train the model. So, for now Vader lexican module is used
+- Try youtube API for faster comment scraping
+  
 # How to run on local machine
 - Unnecessary files – Procfile, nltx.txt, requirements.txt, runtime.txt.
 - **NOTE :** If the bug is fixed and you want to run on cloud, these files are necessary.
-- Run the codes in your preferred IDE [I used PyCharm Professional]. It will run fine on local machine.
+- Run the codes in your preferred IDE [I JUPYTER NOTEBOOK]. It will run fine on local machine.
 
 # Mail Sending File Changes
 - Changes to be done in mail_sending_to_user_with_attached_csv_files.py
