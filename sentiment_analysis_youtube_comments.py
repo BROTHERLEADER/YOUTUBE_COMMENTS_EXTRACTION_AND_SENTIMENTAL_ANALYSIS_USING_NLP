@@ -5,7 +5,7 @@ import csv
 import nltk
 import os.path as checkcsv
 
-## Downloads
+
 
 def sepposnegcom(comment_file):
 
