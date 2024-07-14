@@ -15,19 +15,8 @@
 - It will also produce a HTML table when the process is finished in the background.
 - There are two tables: Positive Comments Table and Negative Comments Table.
 
-# Build Status
-- The web app will work without any bugs in local machine and produce the output.
-- **BUG** - When run on the cloud, the website does not work for the video url that takes time more than 30 seconds to scrap the comments.
-- The bug is due to the built of cloud to produce timeout error after 30 seconds.
-
-# To-Do's
-- NLTK used is Vader lexican module, it can be improved by our own NLTK model in machine learning or Deep Learning (Ex: BERT) but the downside is that, we have to collect labelled data to train the model. So, for now Vader lexican module is used
-- Try youtube API for faster comment scraping
-  
-# How to run on local machine
-- Unnecessary files – Procfile, nltx.txt, requirements.txt, runtime.txt.
-- **NOTE :** If the bug is fixed and you want to run on cloud, these files are necessary.
 - Run the codes in your preferred IDE [I JUPYTER NOTEBOOK]. It will run fine on local machine.
+  
 
 # Mail Sending File Changes
 - Changes to be done in mail_sending_to_user_with_attached_csv_files.py
